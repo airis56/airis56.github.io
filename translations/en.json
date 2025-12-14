@@ -1,0 +1,74 @@
+{
+    "nav": {
+        "about": "About",
+        "projects": "Projects",
+        "experience": "Experience",
+        "contact": "Contact"
+    },
+    "hero": {
+        "eyebrow": "Student · Junior developer",
+        "greeting": "Hey, I'm Airidas",
+        "summary": "A junior full-stack developer who enjoys turning ideas into working web applications and continuously improving through real projects.",
+        "collaborate": "Let's collaborate"
+    },
+    "about": {
+        "eyebrow": "About",
+        "heading": "A little about me",
+        "body": "I'm a junior software developer focused on building full-stack web applications and deploying them. I enjoy turning problems into useful working products and continuously improving my skills through hands-on projects. Currently a final-year student at Kaunas University of Technology.",
+        "pill1": "Full-Stack Development",
+        "pill2": "DevOps",
+        "pill3": "Problem Solving",
+        "pill4": "Teamwork",
+        "pill5": "Communication"
+    },
+    "projects": {
+        "eyebrow": "Projects",
+        "heading": "Project & Academic Experience",
+        "project1": {
+            "type": "Bachelor's final project",
+            "title": "myFi",
+            "description": "Personal finance management app to help users track expenses, set budgets, and achieve financial goals with ease. Includes OCR receipt scanning, email fetching and NLP-powered insights.",
+            "cta": "Under construction"
+        },
+        "project2": {
+            "type": "University project",
+            "title": "Water Quality Measurement System",
+            "description": "Participated in the development of an IoT-based system designed to monitor and measure various water quality parameters in real-time.",
+            "cta": "Demo →"
+        },
+        "project3": {
+            "type": "Personal",
+            "title": "Secret Santa Draw",
+            "description": "A simple PHP web app to draw the names for secret santa or similar random draw cases.",
+            "cta": "Github repository →"
+        },
+        "project4": {
+            "type": "Personal",
+            "title": "Movie Database",
+            "description": "Wanted to experiment with external APIs, security concepts and more, so I built a movie database that allows to search movie databases, watch trailers, collect favorites and track history/statistics of watched movies.",
+            "cta": "Github repository →"
+        },
+        "project5": {
+            "type": "University project",
+            "title": "Watermarking tool",
+            "description": "Another university project that applies watermarks to images. Consisting of JS server and static front-end.",
+            "cta": "Github repository →"
+        },
+        "project6": {
+            "type": "Personal",
+            "title": "Work hours tracking app",
+            "description": "Created this app for myself while working under freelancing contracts to track worked hours efficiently and see month's statistics.",
+            "cta": "Demo →"
+        }
+    },
+    "contact": {
+        "eyebrow": "Contact",
+        "heading": "Let's build something together!",
+        "body": "I am very open to work or internship opportunities. Feel free to drop me a line.",
+        "cta": "Get in touch →"
+    },
+    "footer": {
+        "top": "Back to top ↑",
+        "lastUpdated": "Last updated: {date}"
+    }
+}

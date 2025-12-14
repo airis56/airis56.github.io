@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Personal landing page highlighting work, projects, and ways to connect." />
+    <title>Airidas Skalskis · Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/css/splide.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div id="scroll-progress">
+        <div id="scroll-progress-bar"></div>
+    </div>
+    <header class="hero" id="top">
+        <nav class="nav">
+            <div class="logo" id="logo">AIRIDAS SKALSKIS</div>
+            <div class="nav-links">
+                <a href="#projects" data-i18n="nav.projects"></a>
+                <a href="#experience" data-i18n="nav.experience"></a>
+                <a href="#contact" data-i18n="nav.contact"></a>
+                <button class="theme-toggle" aria-label="Toggle dark mode">
+                    <span class="sun">☀️</span>
+                    <span class="moon">🌙</span>
+                </button>
+                <span class="language-toggle" aria-label="Toggle language" role="button" tabindex="0">
+                    <span class="en">EN</span>
+                    <span class="lt">LT</span>
+                </span>
+            </div>
+        </nav>
+
+        <div class="hero-content">
+            <div class="hero-bg"></div>
+            <p class="eyebrow" data-i18n="hero.eyebrow"></p>
+            <h1 data-i18n="hero.greeting"></h1>
+            <p class="hero-summary" data-i18n="hero.summary"></p>
+            <div class="hero-ctas">
+                <a class="btn primary" href="mailto:skalskimas@gmail.com" data-i18n="hero.collaborate"></a>
+                <a class="btn secondary" href="https://www.linkedin.com/in/airidas-skalskis" target="_blank"
+                    rel="noopener"><span><i class="fa fa-linkedin-square"></i> LinkedIn</span></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section" id="about">
+            <div class="section-header">
+                <p class="eyebrow" data-i18n="about.eyebrow"></p>
+                <h2 data-i18n="about.heading"></h2>
+            </div>
+            <div class="section-body two-col">
+                <p data-i18n="about.body"></p>
+                <ul class="pill-list">
+                    <li data-i18n="about.pill1"></li>
+                    <li data-i18n="about.pill2"></li>
+                    <li data-i18n="about.pill3"></li>
+                    <li data-i18n="about.pill4"></li>
+                    <li data-i18n="about.pill5"></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="section-header">
+                <p class="eyebrow" data-i18n="projects.eyebrow"></p>
+                <h2 data-i18n="projects.heading"></h2>
+            </div>
+
+            <div class="splide project-slider">
+                <div class="splide__track">
+                    <ul class="splide__list">
+
+                        <li class="splide__slide">
+                            <article class="project-card">
+                                <div class="project-meta">
+                                    <span class="project-year">2025</span>
+                                    <span class="project-type" data-i18n="projects.project1.type"></span>
+                                </div>
+                                <h3 data-i18n="projects.project1.title"></h3>
+                                <p data-i18n="projects.project1.description"></p>
+                                <ul class="tag-list">
+                                    <li>React</li>
+                                    <li>Express.js</li>
+                                    <li>PostgreSQL</li>
+                                    <li>Tesseract</li>
+                                    <li>Ollama</li>
+                                </ul>
+                                <a class="cta-pill-deny" data-i18n="projects.project1.cta"></a>
+                            </article>
+                        </li>
+
+                        <li class="splide__slide">
+                            <article class="project-card">
+                                <div class="project-meta">
+                                    <span class="project-year">2025</span>
+                                    <span class="project-type" data-i18n="projects.project6.type"></span>
+                                </div>
+                                <h3 data-i18n="projects.project6.title"></h3>
+                                <p data-i18n="projects.project6.description"></p>
+                                <ul class="tag-list">
+                                    <li>React</li>
+                                    <li>Express.js</li>
+                                    <li>Typescript</li>
+                                    <li>Tailwind CSS</li>
+                                    <li>PostgreSQL</li>
+                                    <li>CI/CD to Azure Web App</li>
+                                </ul>
+                                <a href="#" class="cta-pill" data-modal-target="#demo1"
+                                    data-i18n="projects.project6.cta"></a>
+                            </article>
+                        </li>
+
+                        <li class="splide__slide">
+                            <article class="project-card">
+                                <div class="project-meta">
+                                    <span class="project-year">2025</span>
+                                    <span class="project-type" data-i18n="projects.project2.type"></span>
+                                </div>
+                                <h3 data-i18n="projects.project2.title"></h3>
+                                <p data-i18n="projects.project2.description"></p>
+                                <ul class="tag-list">
+                                    <li>React</li>
+                                    <li>Express.js</li>
+                                    <li>Grafana integration</li>
+                                    <li>Dockerized web deployment</li>
+                                </ul>
+                                <a class="cta-pill" href="#" data-i18n="projects.project2.cta"></a>
+                            </article>
+                        </li>
+
+                        <li class="splide__slide">
+                            <article class="project-card">
+                                <div class="project-meta">
+                                    <span class="project-year">2025</span>
+                                    <span class="project-type" data-i18n="projects.project4.type"></span>
+                                </div>
+                                <h3 data-i18n="projects.project4.title"></h3>
+                                <p data-i18n="projects.project4.description"></p>
+                                <ul class="tag-list">
+                                    <li>React</li>
+                                    <li>Express.js</li>
+                                    <li>SQLite</li>
+                                    <li>External API's</li>
+                                </ul>
+                                <a class="cta-pill" href="https://github.com/airis56/movie-database" target="_blank"
+                                    rel="noreferrer external noopener" data-i18n="projects.project4.cta"></a>
+                            </article>
+                        </li>
+
+                        <li class="splide__slide">
+                            <article class="project-card">
+                                <div class="project-meta">
+                                    <span class="project-year">2023</span>
+                                    <span class="project-type" data-i18n="projects.project3.type"></span>
+                                </div>
+                                <h3 data-i18n="projects.project3.title"></h3>
+                                <p data-i18n="projects.project3.description"></p>
+                                <ul class="tag-list">
+                                    <li>PHP</li>
+                                    <li>SQLite</li>
+                                </ul>
+                                <a class="cta-pill" href="https://github.com/airis56/secret-santa-draw" target="_blank"
+                                    rel="noreferrer external noopener" data-i18n="projects.project3.cta"></a>
+                            </article>
+                        </li>
+
+                        <li class="splide__slide">
+                            <article class="project-card">
+                                <div class="project-meta">
+                                    <span class="project-year">2024</span>
+                                    <span class="project-type" data-i18n="projects.project5.type"></span>
+                                </div>
+                                <h3 data-i18n="projects.project5.title"></h3>
+                                <p data-i18n="projects.project5.description"></p>
+                                <ul class="tag-list">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                                <a class="cta-pill" href="https://github.com/airis56/watermark-app" target="_blank"
+                                    rel="noreferrer external noopener" data-i18n="projects.project5.cta"></a>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <div class="section-header">
+                <p class="eyebrow" data-i18n="contact.eyebrow"></p>
+                <h2 data-i18n="contact.heading"></h2>
+            </div>
+            <div class="contact-grid">
+                <div>
+                    <p data-i18n="contact.body"></p>
+                    <a class="btn primary" href="mailto:skalskimas@gmail.com" data-i18n="contact.cta"></a>
+                </div>
+                <ul class="contact-links">
+                    <li><a href="https://github.com/airis56" target="_blank" rel="noopener">Github <i
+                                class="fa fa-github"></i></a></li>
+                    <li><a href="https://linkedin.com/in/airidas-skalskis" target="_blank" rel="noopener">Linkedin <i
+                                class="fa fa-linkedin-square"></i></a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-left">
+            <p>© <span id="year"></span> <span>Airidas Skalskis</span></p>
+            <p data-i18n="footer.lastUpdated"></p>
+        </div>
+        <div class="footer-right">
+            <a href="#top" class="text-link" data-i18n="footer.top"></a>
+        </div>
+    </footer>
+
+    <div class="modal" id="demo1">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h3 data-i18n="projects.project6.title"></h3>
+            <div class="splide modal-splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide"><img src="https://i.imgur.com/FwasvYg.png" alt="Demo 1"></li>
+                        <li class="splide__slide"><img src="https://i.imgur.com/OQGpHUQ.png" alt="Demo 2"></li>
+                        <li class="splide__slide"><img src="https://i.imgur.com/bH3wbKV.png" alt="Demo 3"></li>
+                        <li class="splide__slide"><img src="https://i.imgur.com/JMxgLZn.png" alt="Demo 4"></li>
+                        <li class="splide__slide"><img src="https://i.imgur.com/ZRo13NJ.png" alt="Demo 5"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

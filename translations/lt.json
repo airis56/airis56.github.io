@@ -1,0 +1,74 @@
+{
+    "nav": {
+        "about": "Apie",
+        "projects": "Projektai",
+        "experience": "Patirtis",
+        "contact": "Kontaktai"
+    },
+    "hero": {
+        "eyebrow": "Studentas · Jaunesnysis programuotojas",
+        "greeting": "Labas, aš Airidas",
+        "summary": "Jaunesnysis programuotojas, kuris mėgsta paversti teorines idėjas veikiančiais sprendimais ir nuolat tobulėti per realius projektus.",
+        "collaborate": "Susisiekime"
+    },
+    "about": {
+        "eyebrow": "Apie",
+        "heading": "Šiek tiek apie mane",
+        "body": "Esu jaunesnysis programuotojas, mėgstantis kurti full-stack web aplikacijas ir jas diegti. Stengiuosi paversti problemas naudingais, veikiančiais produktais ir nuolat tobulinti savo įgūdžius per šiuos projektus. Šiuo metu esu paskutinio kurso studentas Kauno technologijos universitete.",
+        "pill1": "Full-Stack programavimas",
+        "pill2": "DevOps",
+        "pill3": "Problemų sprendimas",
+        "pill4": "Komandinis darbas",
+        "pill5": "Komunikacija"
+    },
+    "projects": {
+        "eyebrow": "Akcentai",
+        "heading": "Projektinė bei akademinė patirtis",
+        "project1": {
+            "type": "Bakalauro baigiamasis projektas",
+            "title": "myFi",
+            "description": "Asmeninių finansų valdymo programa, padedanti vartotojams sekti išlaidas, nustatyti biudžetus ir lengvai pasiekti finansinius tikslus. Įgyvendinta su OCR kvitų nuskaitymu, el. pašto skaitymu ir NLP įžvalgomis.",
+            "cta": "Dar kuriama"
+        },
+        "project2": {
+            "type": "Universiteto projektas",
+            "title": "Vandens kokybės stebėjimo sistema",
+            "description": "Prisidėjau kuriant daiktų interneto pagrindu veikiančią sistemą, kuri realiu laiku stebi ir matuoja įvairius vandens telkinių kokybės parametrus.",
+            "cta": "Demo →"
+        },
+        "project3": {
+            "type": "Asmeninis",
+            "title": "Kalėdų Senelio burtų traukimas",
+            "description": "Paprasta PHP web aplikacija, skirta išsitraukti vardą dovanų keitimuisi arba bet kam, kam tik pareikės.",
+            "cta": "Github repozitorija →"
+        },
+        "project4": {
+            "type": "Asmeninis",
+            "title": "Filmų duombazė",
+            "description": "Norėjau pamėginti išorinius API, saugumo implementacijas ir pan., tad sukūriau filmų duombazę, leidžiančią ieškoti filmų, žiūrėti anonsus, prisidėti į mėgstamiausius ir sekti peržiūrų istoriją/statistiką.",
+            "cta": "Github repozitorija →"
+        },
+        "project5": {
+            "type": "Universiteto projektas",
+            "title": "Vandenženklių įrankis",
+            "description": "Universiteto mini-projektas, kuris lengvai leidžia uždėti vandens ženklus ant paveikslėlių. Susideda iš JS serverio ir statinio front-end'o.",
+            "cta": "Github repozitorija →"
+        },
+        "project6": {
+            "type": "Asmeninis",
+            "title": "Darbo valandų sekimo programa",
+            "description": "Susikūriau šią programą dirbdamas pagal individualią veiklą, kad galėčiau patogiai sekti darbo valandas ir matyti mėnesio statistiką SF išrašymui.",
+            "cta": "Demo →"
+        }
+    },
+    "contact": {
+        "eyebrow": "Kontaktai",
+        "heading": "Sukurkime ką nors kartu!",
+        "body": "Esu atviras darbo ar praktikos galimybėms. Lauksiu jūsų žinutės!",
+        "cta": "Susisiekime →"
+    },
+    "footer": {
+        "top": "Atgal į viršų ↑",
+        "lastUpdated": "Atnaujinta: {date}"
+    }
+}
